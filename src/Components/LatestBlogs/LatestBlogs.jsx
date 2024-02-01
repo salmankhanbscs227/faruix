@@ -5,7 +5,7 @@ import LatestBlogsCard from '../LatestBlogsCard.jsx/LatestBlogsCard';
 
 const LatestBlogs = () => {
   return (
-    <div className="flex flex-col lg:mt-8 gap-4 mt-8">
+    <div data-aos="fade-right" className="flex flex-col lg:mt-8 gap-4 mt-8">
       <div className="flex items-center justify-center ">
         <span className="font-bold text-3xl lg:text-4xl">Latest Blogs</span>
       </div>

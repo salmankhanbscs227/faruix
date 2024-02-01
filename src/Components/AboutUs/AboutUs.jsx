@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='flex flex-col py-20 bg-[#f2f5f7] w-screen h-auto'>
+    <div data-aos="flip-left" data-aos-duration="500" className=' flex flex-col py-20 bg-[#f2f5f7] w-screen h-auto'>
       <div className='flex flex-col w-screen lg:gap-4 justify-center'>
         <h1 className=' text-center px-8 font-bold text-2xl lg:text-4xl'>Find me anywhere in the world!</h1>
         <h4 className='text-center font-bold text-sm lg:text-xl text-[#8e959e]'>We have more than 10 years experience in the industry, <br></br>our products are exporting all over the world.</h4>

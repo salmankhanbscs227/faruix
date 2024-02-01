@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import mobile from "/images/mobile.png";
 import map from "/images/map.png";
+
+import ScrollAnimation from 'react-animate-on-scroll';
+
 const Slider = () => {
   const [isclicked, setIsclicked] = useState(false);
   return (
-    <div className="md:mt-10 flex flex-col md:py-4">
+    
+  <div className="md:mt-10 flex flex-col md:py-4">
       <div className="md:px-24 grid md:grid-cols-2 lg:px-32  md:grid-col-1">
-        <div className="md:flex md:flex-col px-2 flex flex-col gap-1 md:gap-4 mt-24 z-[1000] ">
+        <div data-aos="zoom-out" data-aos-duration="500" className="md:flex md:flex-col px-2 flex flex-col gap-1 md:gap-4 mt-24 z-[1000] ">
           <span className="bg-white text-sm sm:text-lg text-blue-500 rounded-lg px-2 py-1 lg:py-2  sm:w-56 w-44 ">
             100% genuine Products
           </span>
@@ -26,13 +30,13 @@ const Slider = () => {
             Shop now
           </button>
         </div>
-        <div
+        <div ata-aos="zoom-out" data-aos-duration="500"
           className=" md:flex object-cover cursor-pointer -ml-12 object-cover"
           onClick={() => {
             setIsclicked(!isclicked);
           }}
         >
-          <img
+          <img ata-aos="zoom-out" data-aos-duration="500"
             src={isclicked ? map : mobile}
             alt=""
             className='isclicked?"animate-fade":"animate-fade" w-[100%] h-[100%]  z-[900] overflow-hidden'
@@ -70,6 +74,9 @@ const Slider = () => {
         ></span>
       </div>
     </div>
+
+
+    
   );
 };
 

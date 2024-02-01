@@ -2,14 +2,14 @@ import React from 'react'
 
 const Products = () => {
   return (
-   <div className='mt-4'>
-    <div className='products grid   lg:grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 lg:px-16  border-black'>
+   <div  className='mt-4'  >
+    <div data-aos="flip-up" data-aos-duration="500"  className='products grid   lg:grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 lg:px-16  border-black'>
       <div className='flex flex-col justify-center items-center'>
         <img src="images/battery.png" alt="" className="md:w-auto md:h-auto w-16 h-16" />
         <h2 className="md:text-xl text-lg">Phone Batteries</h2>
         
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div  className='flex flex-col justify-center items-center'>
         <img src="images/phone.png" alt="" className="md:w-auto md:h-auto w-16 h-16"   />
         <h2 className="md:text-xl text-lg">Phone Display</h2>
         

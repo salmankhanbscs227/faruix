@@ -5,7 +5,7 @@ import { CgPlayButtonO } from "react-icons/cg";
 const VideoGallery = () => {
 
   return (
-    <div className='mt-12'>
+    <div data-aos="zoom-in-down"  className='mt-12'>
     <div className='flex flex-col justify-center items-center'>
         <h1 className='font-bold lg:text-3xl text-2xl'>Video Gallery</h1>
         <h4 className='text-[#bdc2c8] lg:text-xl text-lg'>Faruix factory production plant video</h4>

@@ -7,8 +7,8 @@ const Agentbrands = () => {
         <h1 className='font-bold text-2xl sm:text-4xl'>Agent Brands</h1>
         <h3 className='text-[#636567] text-center'>Rich product resources, quality assurance, stable supply chain</h3>
         </div>
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 '>
-        <div className='flex flex-col justify-center items-center'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 'data-aos="fade-up" data-aos-duration="500">
+        <div  className='flex flex-col justify-center items-center'>
             <img src="images/brand-1.png" alt="" />
             <button className='w-32 px-co py-2 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg'>RJ brand</button>
 

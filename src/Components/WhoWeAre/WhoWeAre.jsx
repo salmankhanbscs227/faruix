@@ -33,7 +33,7 @@ const WhoWeAre = () => {
     ]
     
   return (
-    <div className=' w-screen flex justify-center items-center flex-col lg:gap-8 lg:mt-12 md:mt-8 mt-4'>
+    <div data-aos="fade-down" className=' w-screen flex justify-center items-center flex-col lg:gap-8 lg:mt-12 md:mt-8 mt-4'>
       <div className='flex flex-col gap-4 px-4'>
         <img src="/images/logo.png" alt="" className='lg:w-36 lg:h-36 md:w-28 md:h-28 sm:w-24 sm:h-24 w-20 h-20' />
         <h1 className='font-bold text-2xl lg:text-4xl'>About us</h1>
@@ -44,7 +44,7 @@ const WhoWeAre = () => {
         </p>
       </div>
 
-        <div className='grid lg:grid-cols-4 sm:grid-cols-2 lg:px-12 lg:gap-12 w-screen '>
+        <div data-aos="flip-down" data-aos-duration="500" className='grid lg:grid-cols-4 sm:grid-cols-2 lg:px-12 lg:gap-12 w-screen '>
            { data.map((datum)=>{
                 return <WhoWeAreCard key={datum.id} image={datum.image} heading= {datum.heading} desc={datum.desc} />
 

@@ -23,7 +23,7 @@ const Team = () => {
         },
     ]
   return (
-    <div className='flex flex-col items-center justify-center bg-[#f2f5f7] w-screen 
+    <div data-aos="fade-down-left" data-aos-duration="500" className='flex flex-col items-center justify-center bg-[#f2f5f7] w-screen 
       mt-4 lg:gap-12 gap-8 lg:py-8 py-4'>
       <div className='flex flex-col items-center justify-center'>
         <h1 className='font-bold lg:text-4xl text-2xl'>Our Team </h1>

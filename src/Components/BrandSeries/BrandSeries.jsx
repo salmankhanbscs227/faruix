@@ -15,8 +15,8 @@ const BrandSeries = () => {
             
         </h1>
         </div>
-        <div className='grid lg:grid-cols-5 sm:grid-cols-2 xsm:grid-cols-2 lg:gap-12 gap-4 md:grid-cols-3 '>
-            <div className='flex flex-col justify-center items-center gap-4  hover:shadow-lg hover:shadow-black hover:border-b-4 border-b-blue-600' 
+        <div data-aos="fade-down" data-aos-duration="500" className='grid lg:grid-cols-5 sm:grid-cols-2 xsm:grid-cols-2 lg:gap-12 gap-4 md:grid-cols-3 '>
+            <div  className='flex flex-col justify-center items-center gap-4  hover:shadow-lg hover:shadow-black hover:border-b-4 border-b-blue-600' 
             onMouseEnter={()=>setFocused1(true)} onMouseLeave={()=>setFocused1(false)}>
             <div>
             <img src="/images/orange_logo.png" className='object-cover' alt="" />
@@ -32,7 +32,7 @@ const BrandSeries = () => {
              lg:mt-12  hover:shadow-lg hover:shadow-black hover:border-b-4 border-b-blue-600' 
             onMouseEnter={()=>setFocused2(true)} onMouseLeave={()=>setFocused2(false)}>
             <div>
-            <img src="/images/logo.png" className='h-20 w-20' alt="" />
+            <img src="/images/logo.png" className='h-20 w-20  ' alt="" />
             </div>
             <div>
             <img src="/images/max.png" alt="" className='h-[100%] w-[100%] object-cover' />

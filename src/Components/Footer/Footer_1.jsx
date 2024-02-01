@@ -9,7 +9,7 @@ import { BsEnvelope } from "react-icons/bs";
 
 const Footer_1 = () => {
   return (
-    <div className='w-screen bg-[#0d0d0d] h-auto'>
+    <div data-aos="fade-up" className='w-screen bg-[#0d0d0d] h-auto'>
       <div className='wrapper '>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 text-[#cdcdcd] gap-2 sm:grid-cols-3 px-4 py-4'>
             <div className="logo-section text-sm sm:text-lg  -mt-4 flex flex-col gap-2 px-1 ">
